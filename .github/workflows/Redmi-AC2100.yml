@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: Redmi-AC2100 OpenWrt
 
 on:
   repository_dispatch:
@@ -22,7 +22,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  FEEDS_CONF: feeds.conf.default
+  FEEDS_CONF: Redmi-AC2100.conf.default
   CONFIG_FILE: Redmi-AC2100.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-Redmi-AC2100.sh
