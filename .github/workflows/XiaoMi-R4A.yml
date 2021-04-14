@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: miwifi-R4A OpenWrt
+name: XiaoMi-R4A OpenWrt
 
 on:
   repository_dispatch:
