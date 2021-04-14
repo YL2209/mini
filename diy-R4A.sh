@@ -32,7 +32,7 @@ sed -i "s/OpenWrt /星新课代表/g" package/lean/default-settings/files/zzz-de
 
 
 #删除原luci-theme-argon主题
-rm -rf package/lean/luci-theme-argon
+#rm -rf package/lean/luci-theme-argon
 
 #下载主题luci-theme-argon
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
